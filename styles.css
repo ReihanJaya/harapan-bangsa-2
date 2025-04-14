@@ -541,32 +541,86 @@ footer {
 
 /* Ensure responsiveness for smaller screens */
 @media (max-width: 768px) {
-    .program-card,
-    .activity-item {
-        width: 80%;
-        margin: 0 auto 20px;
+    header nav {
+        display: none;
+        align-items: flex-start;
     }
 
-    .program-list {
+    header nav ul {
         flex-direction: column;
-        align-items: center;
+        width: 100%;
     }
 
+    header nav ul li {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .hero {
+        padding: 100px 10px;
+        height: auto;
+    }
+
+    .program-list,
     .activities-gallery {
         flex-direction: column;
         align-items: center;
     }
 
-    /* Adjust the hero section text size on smaller screens */
+    .program-card1,
+    .program-card2,
+    .program-card3,
+    .activity-item,
+    .activity-item1,
+    .activity-item2,
+    .activity-item3,
+    .activity-item4,
+    .activity-item5,
+    .activity-item6,
+    .activity-item7,
+    .activity-item8,
+    .activity-item9 {
+        width: 90%;
+    }
+
+    .text-box,
+    .text-box0,
+    .text-box1,
+    .text-box2,
+    .text-box3,
+    .text-box4,
+    .text-box5,
+    .text-box6,
+    .text-box7,
+    .text-box8,
+    .text-box22,
+    .main-box {
+        padding: 15px;
+        font-size: 16px;
+    }
+
     .hero h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .hero p {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .info-box p,
+    .contact-info {
+        font-size: 16px;
+    }
+
+    .social-icon {
+        width: 25px;
+        height: 25px;
     }
 }
-
 .program-card1:hover{
     transform: translateY(-10px);
 }
@@ -610,5 +664,3 @@ footer {
     background-color: #00000000;
      border: 15px;
  }
- 
-  
